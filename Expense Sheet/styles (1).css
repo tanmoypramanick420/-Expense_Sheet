@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 400px;
+    margin: 20px auto;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#items {
+    margin-top: 20px;
+}
+
+#items table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#items th, #items td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
